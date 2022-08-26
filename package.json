@@ -2,7 +2,7 @@
   "name": "node",
   "version": "1.0.0",
   "description": "Testing node",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "nodemon index.js"
   },
