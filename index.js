@@ -8,5 +8,6 @@ app.all('/', (req, response) => {
     console.log(response);
     console.log("Request......");
     console.log("End of Request...............");
+    console.log(req);
 })
 app.listen(process.env.PORT || 3000)
