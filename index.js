@@ -5,6 +5,7 @@ app.all('/', (req, response) => {
     response.setHeader('Set-Cookie', ['type=ninja', 'language=javascript']);
     response.writeHead(200, { 'Content-Type': 'application/json' });\
     console.log(req.body);
+    console.log(response.body)
     response.end('ok');
     console.log(response);
     console.log("Request......");
